@@ -22,6 +22,6 @@ jobs:
       
       - name: Build
         run: |
-          cd netdaemon/netdaemonapps
+          cd netdaemonapps
           dotnet build --configuration Release --no-restore
           dotnet publish .\NetDaemonApps.csproj -c release
