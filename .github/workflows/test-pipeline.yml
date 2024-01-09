@@ -22,4 +22,4 @@ jobs:
       
       - name: Build
         run: |
-          dotnet publish .\NetDaemonApps.csproj -c release
+          dotnet publish NetDaemonApps\NetDaemonApps.csproj -c release
